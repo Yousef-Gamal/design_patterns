@@ -1,0 +1,19 @@
+{
+    "name": "al_fath/design-patterns",
+    "description": "code examples for design patterns course",
+    "authors": [
+        {
+            "name": "Yousef",
+            "email": "yg9552753@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "creational\\": "creational",
+            "Tests\\": "Tests"
+        }
+    }
+}
