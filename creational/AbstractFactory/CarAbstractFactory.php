@@ -13,6 +13,6 @@ class CarAbstractFactory{
         return new BMW($this->price);
     }
     public function createBenz(): Benz{
-        return new Benz(tax: $this->tax,price: $this->price);
+        return new Benz(price: $this->price, tax: $this->tax);
     }
 }

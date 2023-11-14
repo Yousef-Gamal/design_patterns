@@ -2,7 +2,7 @@
 
 namespace creational\Builder\Models;
 
-class BMW
+class BMW extends Car
 {
     private $data = [];
 
