@@ -2,9 +2,7 @@
 
 namespace creational\Builder\Models;
 
-class Car
+abstract class Car
 {
-    public function serPart(){
-
-    }
+    abstract public function setPart($name,$value);
 }
