@@ -4,7 +4,7 @@ namespace creational\Pool;
 
 class Car
 {
-    private $rentAt;
+    private \DateTime $rentAt;
 
     public function __Construct(){
         $this->rentAt = new \DateTime();
