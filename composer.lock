@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56c1fbe6f3850df03b7301b5310d05e5",
+    "content-hash": "d09babfae11842f83725bb0be4584c55",
     "packages": [
+        {
+            "name": "al_fath/basic-auth-lib",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "basicAuthLib",
+                "reference": "1cde3a1a0017d58eeed06aef2f5c794fcb29ee62"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuth\\": "BasicAuth"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Youssef",
+                    "email": "yg9552753@gmail.com"
+                }
+            ],
+            "description": "Tests for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "al_fath/token-auth-lib",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "tokenAuthLib",
+                "reference": "0c8f3dc34640d6962f9e6c2b3bc007c61b92f05d"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuth\\": "TokenAuth"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Yousef"
+                }
+            ],
+            "description": "test lib for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "doctrine/deprecations",
             "version": "1.1.2",
@@ -2073,7 +2122,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "al_fath/basic-auth-lib": 20,
+        "al_fath/token-auth-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -1,0 +1,17 @@
+{
+    "name": "al_fath/basic-auth-lib",
+    "description": "Tests for adapter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Youssef",
+            "email": "yg9552753@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BasicAuth\\": "BasicAuth"
+        }
+    }
+}

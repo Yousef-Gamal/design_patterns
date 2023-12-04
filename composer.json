@@ -8,7 +8,9 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "9.3"
+        "phpunit/phpunit": "9.3",
+        "al_fath/basic-auth-lib": "*@dev",
+        "al_fath/token-auth-lib": "*@dev"
     },
     "autoload": {
         "psr-4": {
@@ -16,5 +18,15 @@
             "structural\\": "structural",
             "Tests\\": "Tests"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "basicAuthLib"
+        },
+        {
+            "type": "path",
+            "url": "tokenAuthLib"
+        }
+    ]
 }

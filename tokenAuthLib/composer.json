@@ -1,0 +1,16 @@
+{
+    "name": "al_fath/token-auth-lib",
+    "description": "test lib for adapter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yousef"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TokenAuth\\": "TokenAuth"
+        }
+    }
+}
