@@ -19,16 +19,14 @@ class BigBox implements ProductComponent, ActionsComponent
         }
         return $totalPrice;
     }
-    public function addProduct(ProductComponent $product): array
+    public function addProduct(ProductComponent $product): void
     {
         $this->products[] = $product;
-        return $this->products;
     }
-    public function removeProduct(ProductComponent $product): array
+    public function removeProduct(ProductComponent $product): void
     {
         $this->products = array_filter($this->products,function($productItem) use($product){
-            return $this->products[$productItem] !== $product;
+            return $productItem !== $product ? $productItem : null;
         });
-        return $this->products;
     }
 }
