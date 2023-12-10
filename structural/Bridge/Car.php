@@ -2,7 +2,8 @@
 
 namespace structural\Bridge;
 
-class Car
+abstract class Car
 {
-
+    public function __Construct(protected CarColor $carColor){}
+    abstract public function getProduct();
 }

@@ -49,6 +49,8 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/al_fath/basic-auth-lib" />
       <path value="$PROJECT_DIR$/vendor/al_fath/token-auth-lib" />
+      <path value="$PROJECT_DIR$/tokenAuthLib/vendor/composer" />
+      <path value="$PROJECT_DIR$/basicAuthLib/vendor/composer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
